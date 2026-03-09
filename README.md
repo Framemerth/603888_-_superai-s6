@@ -96,3 +96,38 @@ Repository นี้ใช้เก็บการเรียนรู้แล
 **family_size**
 
 จำนวนสมาชิกครอบครัวบนเรือ
+
+**is_alone**
+
+ระบุว่าผู้โดยสารเดินทางคนเดียวหรือไม่
+
+### 5. Baseline Machine Learning Model
+
+ใช้ **Logistic Regression** เป็น baseline model เพื่อทำนายการรอดชีวิตของผู้โดยสาร
+
+---
+
+# ทักษะที่กำลังฝึก
+
+ใน repository นี้กำลังฝึกทักษะสำคัญดังนี้
+
+- Python สำหรับ Data Science
+- pandas สำหรับการจัดการข้อมูล
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Machine Learning เบื้องต้น
+
+---
+
+# เป้าหมายของ Repository นี้
+
+- พัฒนาทักษะ Data Science อย่างต่อเนื่อง
+- ฝึกทำโปรเจกต์วิเคราะห์ข้อมูลจริง
+- เตรียมความพร้อมสำหรับการเข้าร่วม **Super AI Engineer Program**
+
+---
+
+# Author
+
+Repository นี้เป็นส่วนหนึ่งของการเรียนรู้และฝึกฝนด้าน AI และ Data Science
