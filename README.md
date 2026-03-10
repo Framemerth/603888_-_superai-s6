@@ -1,133 +1,39 @@
 # 603888_-_superai-s6
 # Super AI Engineer Season 6 – Learning Repository
+# Super AI Season 6 Learning Journey
 
-Repository นี้ใช้เก็บการเรียนรู้และการฝึกฝนด้าน Data Science และ Machine Learning ระหว่างการเตรียมตัวสำหรับโครงการ **Super AI Engineer Season 6**
+This repository tracks my learning progress, notes, notebooks, and projects for Super AI Engineer Season 6.
 
-เป้าหมายของ repository นี้คือการฝึกทักษะที่จำเป็นสำหรับการทำงานด้าน AI และ Data Science เช่น
+## About Me
+- Name: Frame
+- Major: Applied Data Science
+- University: Mahasarakham University
+- Goal: Complete all required courses, build strong evidence of learning, and prepare for hackathon, assessment, and interview.
 
-- Python Programming
-- Data Analysis ด้วย pandas
-- Exploratory Data Analysis (EDA)
-- Data Cleaning และการจัดการ Missing Values
-- Feature Engineering
-- Machine Learning Model เบื้องต้น
+## Current Progress
+- Completed Courses: 6 / 16
 
----
+## Completed Courses
+- Python Programming [Fundamental]
+- Data Science [Fundamental]
+- GitHub [Fundamental]
+- Introduction to Data Visualization [Fundamental]
+- Google Colab [Fundamental]
+- AI Ethics [Fundamental]
 
-# โครงสร้างของ Repository
+## Repository Structure
+- `learning-log/` — daily progress summaries
+- `notes/` — detailed learning reflections and notes
+- `notebooks/` — practice notebooks and experiments
+- `projects/` — mini projects and future work
 
-## notebooks/
-เก็บไฟล์ Jupyter / Google Colab สำหรับการทดลอง วิเคราะห์ข้อมูล และฝึกเขียนโค้ด
+## Current Focus
+- Complete all 16 courses
+- Prepare hackathon deliverables
+- Build strong GitHub evidence
+- Prepare for assessment and interview
 
-ตัวอย่างไฟล์
-
-- `day9_python_review.ipynb`  
-  ทบทวนพื้นฐาน Python เช่น function, list, logic และการเขียนโค้ดพื้นฐาน
-
-- `day9_EDA_practice.ipynb`  
-  ฝึกการสำรวจข้อมูล (Exploratory Data Analysis) ด้วย pandas
-
-- `day9_real_dataset_eda.ipynb`  
-  วิเคราะห์ข้อมูลจริงจาก **Titanic Dataset** ตั้งแต่ขั้นตอน
-  - การสำรวจข้อมูล
-  - การวิเคราะห์ feature
-  - การจัดการ missing values
-  - การสร้าง feature ใหม่
-  - การสร้าง baseline machine learning model
-
----
-
-## notes/
-เก็บบันทึกสรุปแนวคิดที่เรียนในแต่ละวัน
-
-ตัวอย่าง
-
-- `day9_note.md`
-
-เนื้อหาภายในประกอบด้วย
-- แนวคิดสำคัญที่เรียน
-- keyword ที่ควรจำ
-- สรุปสิ่งที่เข้าใจจากการเรียนในวันนั้น
-
----
-
-## projects/
-โฟลเดอร์สำหรับเก็บ **Mini Projects และ Challenge ต่าง ๆ** ที่จะทำระหว่างการเรียนรู้
-
-ตัวอย่างที่อาจเพิ่มในอนาคต
-
-- Data Analysis Projects
-- Machine Learning Projects
-- Hackathon Challenge
-
----
-
-# ตัวอย่างโปรเจกต์ใน Repository
-
-## Titanic Dataset Analysis
-
-โปรเจกต์นี้เป็นการวิเคราะห์ข้อมูลจาก Titanic Dataset โดยมีขั้นตอนดังนี้
-
-### 1. Data Exploration
-สำรวจโครงสร้างของข้อมูล เช่น
-- จำนวนแถวและคอลัมน์
-- ประเภทของตัวแปร
-- ค่าที่หายไป (Missing Values)
-
-### 2. Feature Analysis
-วิเคราะห์ความสัมพันธ์ระหว่างตัวแปรต่าง ๆ กับตัวแปรเป้าหมาย (`survived`)
-
-ตัวอย่าง
-- เพศกับการรอดชีวิต
-- ชั้นโดยสารกับการรอดชีวิต
-- ราคาตั๋วกับการรอดชีวิต
-
-### 3. Data Cleaning
-จัดการข้อมูลที่หายไป เช่น
-
-- เติมค่า median สำหรับตัวแปร `age`
-- เติมค่า mode สำหรับตัวแปร `embarked`
-
-### 4. Feature Engineering
-สร้าง feature ใหม่เพื่อช่วยให้โมเดลเรียนรู้ได้ดีขึ้น
-
-ตัวอย่าง
-
-**family_size**
-
-จำนวนสมาชิกครอบครัวบนเรือ
-
-**is_alone**
-
-ระบุว่าผู้โดยสารเดินทางคนเดียวหรือไม่
-
-### 5. Baseline Machine Learning Model
-
-ใช้ **Logistic Regression** เป็น baseline model เพื่อทำนายการรอดชีวิตของผู้โดยสาร
-
----
-
-# ทักษะที่กำลังฝึก
-
-ใน repository นี้กำลังฝึกทักษะสำคัญดังนี้
-
-- Python สำหรับ Data Science
-- pandas สำหรับการจัดการข้อมูล
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Machine Learning เบื้องต้น
-
----
-
-# เป้าหมายของ Repository นี้
-
-- พัฒนาทักษะ Data Science อย่างต่อเนื่อง
-- ฝึกทำโปรเจกต์วิเคราะห์ข้อมูลจริง
-- เตรียมความพร้อมสำหรับการเข้าร่วม **Super AI Engineer Program**
-
----
-
-# Author
-
-Repository นี้เป็นส่วนหนึ่งของการเรียนรู้และฝึกฝนด้าน AI และ Data Science
+## Next Courses
+- Linux [Fundamental]
+- AI for Digital Business
+- Mathematics for AI [Fundamental]
